@@ -1,0 +1,95 @@
+body {
+    font-family: 'Manrope';
+    font-weight: 800;
+    background-color: hsl(218, 23%, 16%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+}
+
+.cartao {
+    display: flex;
+    height: 335px;
+    width: 540px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 15px;
+    text-align: center;
+}
+
+.cartao span {
+    color: hsl(150, 100%, 66%);
+    font-size: 13px;
+    letter-spacing: 4px;
+    margin-top: 50px;
+}
+
+.cartao .texto {
+    font-size: 30px;
+    padding: 23px;
+    color: hsl(193, 38%, 86%);
+}
+
+.cartao picture img {
+    width: 490px;
+    justify-content: center;
+}
+
+.cartao .botao-conselho {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: hsl(150, 100%, 66%);
+    border: none;
+    transform: translateY(60%);
+}
+
+.cartao .botao-conselho:hover {
+    cursor: pointer;
+    box-shadow: 0 5px 15px hsl(150, 100%, 66%);
+}
+
+@media (max-width: 576px) {
+    .cartao {
+        display: flex;
+        height: 315px;
+        width: 345px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: hsl(217, 19%, 24%);
+        border-radius: 15px;
+        text-align: center;
+    }
+
+    .cartao span {
+        color: hsl(150, 100%, 66%);
+        font-size: 13px;
+        letter-spacing: 4px;
+        margin-top: 40px;
+    }
+
+    .cartao .texto {
+        font-size: 25px;
+        padding: 23px;
+        color: hsl(193, 38%, 86%);
+    }
+
+    .cartao picture img {
+        width: 300px;
+        justify-content: center;
+    }
+
+    .cartao .botao-conselho {
+        width: 60px;
+        height: 60px;
+        border-radius: 30px;
+        background-color: hsl(150, 100%, 66%);
+        border: none;
+        transform: translateY(36%);
+    }
+
+}
